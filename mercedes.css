@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: -webkit-fill-available;
+}
+
+.img-responsive {
+  margin-bottom: 5rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+}
+
+.navbar-nav {
+  margin-left: 400px;
+}
+
+.text-overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  object-fit: cover;
+}
+
+i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  
+}
+
+.minheading {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.other-models {
+  display: block;
+}
+
+.head-other-models {
+  
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.s63-img {
+  display: flex;
+  justify-content: center;
+  width: 23.5rem;
+}
+
+.button-other-models {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  transition: all ease 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.nav-item {
+  transition: all ease 0.4s;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 390px) {
+    .minheading {
+       width: 50%;
+    }
+}
+
+
+
